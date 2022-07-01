@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
     text-decoration: none
 }
 
+h1{
+    padding: 1rem;
+    text-align: center;
+}
