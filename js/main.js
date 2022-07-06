@@ -22,9 +22,10 @@ function guardar(valor) {
                 let html;
                 html = `
                         <div class="col s4 m3">
-                            <div class="card">
-                                <div class="card-image">
-                                    <h4 class="card-title">Hola ${persona.uNombre}</h4>
+                            <div>
+                                <div class="d-flex flex-column align-items-center justify-content-between p-5 m-5">
+                                    <h2>Bienvenido ${user.uNombre}</h2>
+                                    <p> Gracias por registrarte </p>
                                 </div>
                             </div>
                         </div>`;
@@ -39,11 +40,7 @@ function guardar(valor) {
             let html;
             html = `
                     <div class="col s4 m3">
-                        <div class="card">
-                            <div class="card-image">
                                 <h4 class="card-title">Hola</h4>
-                            </div>
-                        </div>
                     </div>`;
 
 
